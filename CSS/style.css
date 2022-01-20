@@ -1,0 +1,113 @@
+/* setting up the layouts for header-area */
+.left{
+    position:absolute;
+    top: 2%;
+    left: 2%;
+    display: inline-block;
+    /* border: 2px solid red; */
+    color: white;
+
+}
+.mid{
+    display: block;
+    max-width: 40%;
+    margin: 12px auto;
+    color: white;
+    /* border: 2px solid green; */
+}
+.right{
+    position:absolute;
+    top: 2%;
+    right: 2%;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    color: white;
+
+}
+/* layout set done */
+
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    text-align: center;
+   color: white;
+   text-decoration: none;
+   padding: 0px 18px;
+   font-family: 'Source Sans Pro', sans-serif;
+   text-transform: uppercase;
+}
+
+.navbar li a:hover, .navbar li a.active{
+
+    text-decoration: underline;
+    color: rgb(250, 188, 73);
+}
+
+/* logo settings */
+.left img{
+    max-width: 40px;
+    margin-left: 30px;
+    filter: invert(100%);
+}
+.left h4{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin:0px auto;
+}
+/* CTA buttons */
+.cta{
+    margin: 0 px 12px;
+    padding: 8px 024px;
+    background-color: black;
+    color: whitesmoke;
+    /* border: 2px solid white; */
+    border-radius: 8px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+ }
+ .cta:hover{
+     background-color: rgb(78, 78, 78);
+ }
+/* end of headerpart */
+
+ .container{
+    color: white;
+    border: 2px solid white;
+    margin: 50px 50px;
+    padding: 40px 72px;
+    width: 30%;
+}
+.container h2{
+    text-align: center;
+}
+
+
+.form-area input{
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    width: 241px;
+    border-radius: 8px;
+    margin: 12px auto;
+    padding: 13px 71px;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+.container button{
+    display: block;
+    width: 120px;
+    margin: 24px auto;
+}
